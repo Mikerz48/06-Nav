@@ -10,39 +10,27 @@
 <header class="header">
     <nav class="nav">
         <div class="list">
-            <ul class="items">
-                <li><a href="#" class="logo">Navbar</a></li>
-                <li><a href="#" class="home">Home</a></li>
-                <li><a href="#" class="link">Link</a></li>
-                <li><button class="drop">Dropdown
-                        <svg fill="#000000" 
-                            width="10px" height="10px" 
-                            viewBox="-6.5 0 32 32" version="1.1" 
-                            xmlns="http://www.w3.org/2000/svg">
-                            <title>dropdown</title>
-                            <path d="M18.813 11.406l-7.906 9.906c-0.75 0.906-1.906 
-                                    0.906-2.625 0l-7.906-9.906c-0.75-0.938-0.375-1.656 
-                                    0.781-1.656h16.875c1.188 0 1.531 0.719 0.781 1.656z">
-                            </path>
-                        </svg>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <ul id="menu">
-                            <a href="#"><li>Link1</li></a>
-                            <a href="#"><li>Link2</li></a>
-                            <a href="#"><li>Link3</li></a>
-                        </ul>
-                    </button>
+            <ul>
+                <li class="navlogo">Navbar</li>
+                <li class="home">Home</li>
+                <li class="link">Link</li>
+                <li class="drop">Dropdown
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="#000000" width="13px" height="13px" viewBox="-6.5 0 32 32" version="1.1">
+                        <title>dropdown</title>
+                        <path d="M18.813 11.406l-7.906 9.906c-0.75 
+                        0.906-1.906 0.906-2.625 0l-7.906-9.906c-0.75-0.938-0.375-1.656 0.781-1.656h16.875c1.188 
+                        0 1.531 0.719 0.781 1.656z"/>
+                    </svg>
                 </li>
-                <li><button disabled class="dis">Disabled</button></li>
+                <li class="dis"><button disabled>Disabled</button></li>
             </ul>
         </div>
-        <div>
-            <input type="search" class="search-bar" placeholder="Search">
+        <div class="searchbar">
+            <input type="text" placeholder="Search">
+            <input type="submit" value="Search" id="searchbut">
         </div>
-        <div>
-            <button class="search-but">Search</button>
+        <div class="ham">
+            <img src="icons8-menu-50.png" alt="hamburgermenu">
         </div>
     </nav>
 </header>
