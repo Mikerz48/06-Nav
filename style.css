@@ -71,11 +71,13 @@ input {
 
 #searchbut {
     background-color: darkgrey;
+    color: green;
+    border: 2px solid green;
 }
 
 #searchbut:hover {
-    border: 1px solid green;
-    color: green;
+    background-color: green;
+    color: white;
 }
 
 @media (max-width: 768px) {
